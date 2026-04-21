@@ -1,4 +1,4 @@
-target/
+# target/ excluded removed to allow local JAR copying
 *.class
 *.jar
 *.war
