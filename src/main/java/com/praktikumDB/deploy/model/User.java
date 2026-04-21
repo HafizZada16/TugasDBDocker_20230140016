@@ -8,4 +8,8 @@ import lombok.Data;
 @Data
 @Table (name = "20230140016")
 public class User {
+    @jakarta.persistence.Id
+    private String id;
+    private String name;
+    private String nim;
 }
